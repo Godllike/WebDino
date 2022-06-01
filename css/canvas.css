@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+ul-li{list-style: none;}
+img{vertical-align: top;}
+
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+	background: black;
+}
+.canvasContainer {
+	height: 500px;
+	width: 1000px;
+	background: skyblue;
+	margin: 100px auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#canvas1 {
+	background: black; 
+}
+
+.startContainer{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Press Start 2P';
+	line-height: 0;
+	text-align: center;
+}
+
+.GameButton{
+	background: skyblue;
+	border-radius: 10px;
+	padding: 25px 20px;
+	cursor: pointer;
+	transition: all 0,3s;
+	margin-top: 20px;
+}
+.GameButton:hover{
+	transition: all 0,3s;
+	background: rgba(135, 206, 235, 0.5);
+}
+.GameText{
+	color: white;
+	padding: 20px 0;
+	font-size: 20px;
+	
+}
